@@ -10,11 +10,10 @@
 	$servername = "sql6.freemysqlhosting.net";
 	$username = "sql6516297";
 	$password = "Twy2yLpSVd";
-	$database = "sql6516297";
 
 
 	// Create connection
-	$conn = new mysqli($servername, $username, $password, $database);
+	$conn = new mysqli($servername, $username, $password);
 	
 
 
