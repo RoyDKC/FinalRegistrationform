@@ -6,14 +6,8 @@
 	$password = $_POST['password'];
 	$number = $_POST['number'];
 
-	// Database connection
-	$servername = "sql6.freemysqlhosting.net";
-	$username = "sql6516297";
-	$password = "Twy2yLpSVd";
-
-
 	// Create connection
-	$conn = new mysqli($servername, $username, $password);
+	$conn = new mysqli( "sql6.freemysqlhosting.net", "sql6516297", "Twy2yLpSVd" );
 	
 
 
